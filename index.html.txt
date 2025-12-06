@@ -1,0 +1,61 @@
+Hi Chef Rob, Here's your complete Santello's Paninoteca and Café website code. INSTRUCTIONS: 1. Copy ALL the code below (from ) 2. Open a text editor (Notes app on iPhone, TextEdit on Mac, Notepad on Windows) 3. Paste the code 4. Save as "index.html" (make sure it ends in .html not .txt) 5. Upload to GitHub ---BEGIN CODE---
+SANTELLO'S
+Paninoteca and Café
+Bradley Beach, New Jersey • Spring 2026
+The Vision
+Santello's reimagines the Italian dining experience through two distinct identities: an authentic daytime paninoteca celebrating Sicilian café culture, and an exclusive Friday night fine dining destination showcasing contemporary Italian cuisine.
+🥖 Daytime Paninoteca
+Monday - Saturday, Lunch& Early Dinner
+	•			Authentic Italian panini and sandwiches
+	•			Sicilian-style café atmosphere
+	•			Casual, accessible dining
+	•			Strong community presence
+	•			High-volume, efficient service
+🍷 Friday Fine Dining
+Friday Evenings Only
+	•			Exclusive 5-course prix fixe menu
+	•			Vegetarian options available
+	•			Limited seating reservation-only
+	•			Contemporary Italian techniques
+	•			Premium wine pairings
+	•			Elevated culinary experience
+Investment Opportunity
+Seeking: $450,000 - $500,000
+Strategic investment opportunity in a differentiated café and paninoteca concept positioned in Bradley Beach's growing culinary market.
+18-24
+Months to Break-Even
+2026
+Target Opening
+24
+Years Chef Experience
+2x
+Revenue Streams
+Competitive Advantages
+Dual-Concept Model
+Two distinct revenue streams maximize space utilization and market reach. The daytime paninoteca builds consistent cash flow and community loyalty, while Friday fine dining creates premium revenue and brand prestige.
+Strategic Location
+Bradley Beach offers proximity to affluent markets with lower overhead than competing coastal towns. The Jersey Shore's seasonal influx provides additional revenue potential during peak months.
+Authentic Italian Heritage
+Rooted in genuine Sicilian café traditions and contemporary Italian techniques, Santello's offers authenticity that differentiates from typical Italian-American concepts.
+Experienced Leadership
+Executive Chef with 24 years of culinary experience, including work at Tasca (Best Restaurant in New Jersey, 2024) and acclaimed NYC establishments. Proven track record in both high-volume and fine dining operations.
+Financial Highlights
+Capital Allocation
+	•			Build-out and equipment
+	•			Initial inventory and supplies
+	•			Marketing and pre-opening expenses
+	•			Working capital reserve
+	•			Licensing and permits
+Revenue Strategy
+	•			Daytime paninoteca: High-volume, consistent daily revenue
+	•			Friday dining: Premium pricing, reservation-only exclusivity
+	•			Catering and private events potential
+	•			Seasonal Shore traffic amplification
+Comprehensive business plan and detailed financial projections available upon request.
+Partner With Santello's
+Join us in creating Bradley Beach's premier Italian dining destination. Request our complete business plan and investment prospectus.
+Request Business PlanSchedule Meeting
+Chef Rob Santello | 917-478-9855
+© 2024 Santello's Paninoteca and Café. All rights reserved.
+Bradley Beach, New Jersey
+---END CODE--- Once you have this saved as index.html, upload it to GitHub and enable Pages! Best, Claude
