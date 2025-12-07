@@ -1,61 +1,485 @@
-Hi Chef Rob, Here's your complete Santello's Paninoteca and Café website code. INSTRUCTIONS: 1. Copy ALL the code below (from ) 2. Open a text editor (Notes app on iPhone, TextEdit on Mac, Notepad on Windows) 3. Paste the code 4. Save as "index.html" (make sure it ends in .html not .txt) 5. Upload to GitHub ---BEGIN CODE---
-SANTELLO'S
-Paninoteca and Café
-Bradley Beach, New Jersey • Spring 2026
-The Vision
-Santello's reimagines the Italian dining experience through two distinct identities: an authentic daytime paninoteca celebrating Sicilian café culture, and an exclusive Friday night fine dining destination showcasing contemporary Italian cuisine.
-🥖 Daytime Paninoteca
-Monday - Saturday, Lunch& Early Dinner
-	•			Authentic Italian panini and sandwiches
-	•			Sicilian-style café atmosphere
-	•			Casual, accessible dining
-	•			Strong community presence
-	•			High-volume, efficient service
-🍷 Friday Fine Dining
-Friday Evenings Only
-	•			Exclusive 5-course prix fixe menu
-	•			Vegetarian options available
-	•			Limited seating reservation-only
-	•			Contemporary Italian techniques
-	•			Premium wine pairings
-	•			Elevated culinary experience
-Investment Opportunity
-Seeking: $450,000 - $500,000
-Strategic investment opportunity in a differentiated café and paninoteca concept positioned in Bradley Beach's growing culinary market.
-18-24
-Months to Break-Even
-2026
-Target Opening
-24
-Years Chef Experience
-2x
-Revenue Streams
-Competitive Advantages
-Dual-Concept Model
-Two distinct revenue streams maximize space utilization and market reach. The daytime paninoteca builds consistent cash flow and community loyalty, while Friday fine dining creates premium revenue and brand prestige.
-Strategic Location
-Bradley Beach offers proximity to affluent markets with lower overhead than competing coastal towns. The Jersey Shore's seasonal influx provides additional revenue potential during peak months.
-Authentic Italian Heritage
-Rooted in genuine Sicilian café traditions and contemporary Italian techniques, Santello's offers authenticity that differentiates from typical Italian-American concepts.
-Experienced Leadership
-Executive Chef with 24 years of culinary experience, including work at Tasca (Best Restaurant in New Jersey, 2024) and acclaimed NYC establishments. Proven track record in both high-volume and fine dining operations.
-Financial Highlights
-Capital Allocation
-	•			Build-out and equipment
-	•			Initial inventory and supplies
-	•			Marketing and pre-opening expenses
-	•			Working capital reserve
-	•			Licensing and permits
-Revenue Strategy
-	•			Daytime paninoteca: High-volume, consistent daily revenue
-	•			Friday dining: Premium pricing, reservation-only exclusivity
-	•			Catering and private events potential
-	•			Seasonal Shore traffic amplification
-Comprehensive business plan and detailed financial projections available upon request.
-Partner With Santello's
-Join us in creating Bradley Beach's premier Italian dining destination. Request our complete business plan and investment prospectus.
-Request Business PlanSchedule Meeting
-Chef Rob Santello | 917-478-9855
-© 2024 Santello's Paninoteca and Café. All rights reserved.
-Bradley Beach, New Jersey
----END CODE--- Once you have this saved as index.html, upload it to GitHub and enable Pages! Best, Claude
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santello's — Investment Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+```
+    :root {
+        --sicilian-red: #A52A2A;
+        --sicilian-gold: #FFC72C;
+        --deep-red: #8B1A1A;
+        --warm-gold: #D4A017;
+        --mediterranean-teal: #2FA9A9;
+        --turquoise: #40B5AD;
+        --sand: #F4EDE3;
+        --white: #FAFAFA;
+        --charcoal: #2A2A2A;
+        --wheat: #E8B923;
+        --rust: #B7410E;
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.8;
+        color: #3A3A3A;
+        background: var(--sand);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, rgba(165, 42, 42, 0.92) 0%, rgba(47, 169, 169, 0.85) 100%),
+                    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><rect fill="%23A52A2A" width="200" height="200"/><circle cx="100" cy="100" r="80" fill="none" stroke="%2340B5AD" stroke-width="0.5" opacity="0.4"/><circle cx="100" cy="100" r="50" fill="none" stroke="%23FFC72C" stroke-width="0.5" opacity="0.3"/></svg>');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding: 60px 40px;
+        position: relative;
+    }
+
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(244, 237, 227, 0.03) 2px,
+            rgba(244, 237, 227, 0.03) 4px
+        );
+    }
+
+    .logo {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 400;
+        font-size: 84px;
+        letter-spacing: 4px;
+        color: var(--white);
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 1;
+    }
+
+    .tagline {
+        font-size: 18px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: var(--sand);
+        margin-bottom: 40px;
+        font-weight: 300;
+        position: relative;
+        z-index: 1;
+    }
+
+    .location {
+        font-size: 15px;
+        color: rgba(250, 250, 250, 0.85);
+        letter-spacing: 1px;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Section Styling */
+    section {
+        padding: 100px 40px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .section-white {
+        background: var(--white);
+    }
+
+    .section-terracotta {
+        background: linear-gradient(135deg, rgba(64, 181, 173, 0.08) 0%, rgba(255, 199, 44, 0.12) 50%, rgba(244, 237, 227, 0.3) 100%);
+        border-top: 3px solid var(--turquoise);
+        border-bottom: 3px solid var(--sicilian-gold);
+    }
+
+    .section-blue {
+        background: var(--sicilian-red);
+        color: var(--white);
+    }
+
+    .section-blue h2,
+    .section-blue h3 {
+        color: var(--sicilian-gold);
+    }
+
+    h2 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 500;
+        font-size: 42px;
+        margin-bottom: 30px;
+        color: var(--deep-red);
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        color: var(--sicilian-red);
+    }
+
+    .intro {
+        font-size: 20px;
+        line-height: 1.9;
+        color: var(--deep-red);
+        margin-bottom: 50px;
+        font-weight: 300;
+    }
+
+    /* Quote Block */
+    .quote-block {
+        background: var(--white);
+        padding: 80px 60px;
+        text-align: center;
+        border-left: 5px solid var(--turquoise);
+        border-right: 5px solid var(--sicilian-gold);
+        margin: 60px 0;
+    }
+
+    .quote {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 1.7;
+        font-style: italic;
+        color: var(--deep-red);
+        margin-bottom: 25px;
+    }
+
+    .attribution {
+        font-size: 14px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--sicilian-red);
+        font-weight: 400;
+    }
+
+    /* Stats Grid */
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+        margin: 60px 0;
+    }
+
+    .stat {
+        text-align: center;
+        padding: 30px;
+        background: var(--white);
+        border-radius: 2px;
+        box-shadow: 0 4px 12px rgba(47, 169, 169, 0.12);
+        border-bottom: 3px solid var(--turquoise);
+    }
+
+    .stat-number {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 52px;
+        font-weight: 500;
+        color: var(--sicilian-red);
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .stat-label {
+        font-size: 13px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--turquoise);
+        font-weight: 400;
+    }
+
+    /* Two Column Layout */
+    .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin: 40px 0;
+    }
+
+    .col {
+        background: var(--white);
+        padding: 40px;
+        border-top: 2px solid var(--turquoise);
+    }
+
+    .col h3 {
+        margin-top: 0;
+    }
+
+    ul {
+        list-style: none;
+        margin: 25px 0;
+    }
+
+    li {
+        padding: 15px 0;
+        padding-left: 30px;
+        border-bottom: 1px solid rgba(47, 169, 169, 0.15);
+        position: relative;
+    }
+
+    li:nth-child(odd)::before {
+        content: '●';
+        position: absolute;
+        left: 0;
+        color: var(--turquoise);
+        font-size: 14px;
+    }
+
+    li:nth-child(even)::before {
+        content: '●';
+        position: absolute;
+        left: 0;
+        color: var(--sicilian-gold);
+        font-size: 14px;
+    }
+
+    li:last-child {
+        border-bottom: none;
+    }
+
+    /* Decorative Elements */
+    .divider {
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(to right, var(--sicilian-red), var(--turquoise), var(--sicilian-gold));
+        margin: 60px auto;
+    }
+
+    .tile-pattern {
+        width: 100%;
+        height: 20px;
+        background: 
+            repeating-linear-gradient(45deg, var(--turquoise), var(--turquoise) 10px, var(--sicilian-gold) 10px, var(--sicilian-gold) 20px);
+        opacity: 0.2;
+        margin: 40px 0;
+    }
+
+    /* Contact Section */
+    .contact {
+        background: linear-gradient(135deg, var(--sicilian-red) 0%, var(--mediterranean-teal) 100%);
+        color: var(--white);
+        text-align: center;
+        padding: 100px 40px;
+    }
+
+    .contact h2 {
+        color: var(--sicilian-gold);
+        margin-bottom: 40px;
+    }
+
+    .contact p {
+        font-size: 18px;
+        margin-bottom: 40px;
+        color: rgba(250, 250, 250, 0.9);
+    }
+
+    .cta-button {
+        display: inline-block;
+        margin: 15px 10px;
+        padding: 18px 45px;
+        background: transparent;
+        border: 2px solid var(--sicilian-gold);
+        color: var(--sicilian-gold);
+        text-decoration: none;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400;
+        transition: all 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background: var(--sicilian-gold);
+        color: var(--sicilian-red);
+        transform: translateY(-2px);
+    }
+
+    /* Footer */
+    footer {
+        background: #2A2A2A;
+        color: rgba(244, 237, 227, 0.6);
+        text-align: center;
+        padding: 50px 40px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .logo {
+            font-size: 56px;
+        }
+        
+        h2 {
+            font-size: 32px;
+        }
+        
+        .two-col {
+            grid-template-columns: 1fr;
+        }
+        
+        section {
+            padding: 60px 20px;
+        }
+        
+        .quote {
+            font-size: 22px;
+        }
+    }
+</style>
+```
+
+</head>
+<body>
+    <!-- Hero -->
+    <div class="hero">
+        <div>
+            <h1 class="logo">SANTELLO'S</h1>
+            <div class="tagline">Paninoteca & Café</div>
+            <div class="location">Jersey Shore, New Jersey</div>
+        </div>
+    </div>
+
+```
+<!-- Vision -->
+<section>
+    <h2>Beyond the boundaries of tradition</h2>
+    <p class="intro">A sun-drenched Italian café where the warmth of Sicily meets the craft of authentic paninoteca culture. Where weathered wood, hand-painted tile, and the scent of fresh-baked bread create a Mediterranean sanctuary on the Jersey Shore.</p>
+    
+    <div class="stats">
+        <div class="stat">
+            <span class="stat-number">$450-500K</span>
+            <span class="stat-label">Total Investment</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number">30%</span>
+            <span class="stat-label">Investor Equity</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number">Spring 2027</span>
+            <span class="stat-label">Opening</span>
+        </div>
+    </div>
+</section>
+
+<!-- Quote -->
+<div class="quote-block">
+    <p class="quote">Sicilians build things like they will live forever and eat like they will die tomorrow.</p>
+    <div class="attribution">— Plato</div>
+</div>
+
+<!-- The Concept -->
+<section class="section-terracotta">
+    <h2>The Concept</h2>
+    
+    <div class="two-col">
+        <div class="col">
+            <h3>Daytime Paninoteca</h3>
+            <p><strong>Tuesday — Sunday</strong><br>10:00am — 6:00pm</p>
+            <ul>
+                <li>Artisan panini on house-baked focaccia and ciabatta</li>
+                <li>Imported Italian meats and cheeses</li>
+                <li>Seasonal antipasti and salads</li>
+                <li>Traditional Italian espresso bar</li>
+                <li>Rustic Sicilian cafe atmosphere</li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <h3>Friday Dinner Experience</h3>
+            <p><strong>Friday only</strong><br>6:00pm — 10:00pm</p>
+            <ul>
+                <li>Intimate 30-seat reservation-only dining</li>
+                <li>Five-course prix fixe menu</li>
+                <li>Contemporary Italian with Sicilian soul</li>
+                <li>BYOB format for flexibility</li>
+                <li>Candlelit courtyard ambiance</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Investment -->
+<section class="section-blue">
+    <h2>Investment Structure</h2>
+    
+    <div style="margin: 50px 0;">
+        <h3 style="color: var(--sicilian-gold);">Capital Requirement — $450,000-$500,000</h3>
+        <p style="font-size: 18px; margin: 20px 0;">$400,000 from investors (30% equity) + $100,000 from Chef Santello (70% equity)</p>
+        
+        <div style="margin-top: 40px;">
+            <ul style="max-width: 700px; margin: 0 auto;">
+                <li style="border-bottom-color: rgba(244, 237, 227, 0.2);">Minimum investment: $100,000 for 7.5% equity</li>
+                <li style="border-bottom-color: rgba(244, 237, 227, 0.2);">Use of funds: Build-out, equipment, operating reserves, inventory, marketing</li>
+                <li style="border-bottom-color: rgba(244, 237, 227, 0.2);">Return structure: Investors receive 100% capital return before profit sharing</li>
+                <li style="border-bottom-color: rgba(244, 237, 227, 0.2);">Projected break-even: 18-24 months</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Chef -->
+<section>
+    <h2>Chef Rob Santello</h2>
+    <p class="intro">Twenty-four years of culinary mastery. From New York City's finest kitchens to New Jersey's award-winning establishments. Most recently Executive Chef at Heirloom Kitchen and Tasca — Best Restaurant in New Jersey, 2024.</p>
+    
+    <div class="quote-block" style="border-left-color: var(--turquoise); border-right-color: var(--sicilian-gold);">
+        <p class="quote">Sicilian heritage meets modern technique. Food that honors the past while speaking to this moment. Nothing more complicated than it needs to be.</p>
+    </div>
+</section>
+
+<!-- Location -->
+<section class="section-white">
+    <h2>Jersey Shore</h2>
+    <p class="intro">An emerging culinary destination. Year-round community. Summer amplification. Walking distance to Asbury Park's cultural revival.</p>
+    
+    <ul style="max-width: 700px; margin: 40px auto;">
+        <li>Limited authentic Italian competition</li>
+        <li>Strong residential base seeking quality dining</li>
+        <li>Robust shore tourism in peak season</li>
+        <li>Walkable downtown with cultural momentum</li>
+    </ul>
+</section>
+
+<!-- Contact -->
+<div class="contact">
+    <h2>A Unique Place to Meet</h2>
+    <p>Request complete business plan and financial projections</p>
+    <a href="/cdn-cgi/l/email-protection#34465b5647555a405158585b745359555d581a575b59" class="cta-button">Email Chef Santello</a>
+    <a href="tel:+19174789855" class="cta-button">917-478-9855</a>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Santello's Paninoteca & Café</p>
+    <p style="margin-top: 15px; opacity: 0.5;">Jersey Shore, 
+```
